@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1>Pedro Juca e Edna irão correr</h1>
+
+<form >
+    <p>Escolha a Quantidade de Voltas:</p>
+    <input type="radio" id="cr" name="track" value=10>
+    <label for="cr">Corrida Rápida: 10 Voltas</label><br>
+    <input type="radio" id="gp" name="track" value=70>
+    <label for="gp">Grande Prêmio: 70 Voltas</label><br>
+    <input type="radio" id="enduro" name="track" value=160>
+    <label for="enduro">Enduro: 160 Voltas</label>
+</form>
+
+<button onclick="race()">Correr</button>
+
+<div id="lap_winner">
+    <div class="box">
+        <h2 id="pedro">Pedro</h2>
+        <span id="lap_pedro"></span>
+        <span id="ponto_pedro"></span>
+        <span id="lvl_pedro"></span>
+    </div>
+    
+    <div class="box">
+        <h2 id="juca">Juca</h2>
+        <span id="lap_juca"></span>
+        <span id="ponto_juca"></span>
+        <span id="lvl_juca"></span>
+    </div>
+
+    <div class="box">
+        <h2 id="edna">Edna</h2>
+        <span id="lap_maria"></span>
+        <span id="ponto_edna"></span>
+        <span id="lvl_edna"></span>
+    </div>    
+</div>
+
+<div id="race_winner_box">
+    <h2 id="racewinner">Race Winner</h2>
+    <span id="race_winner"></span>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-image: url(images/rb.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: ghostwhite;
+}
+
+button {
+    margin-top: 30px;
+}
+
+#lap_winner {
+    display: none;
+
+}
+
+#race_winner_box {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
